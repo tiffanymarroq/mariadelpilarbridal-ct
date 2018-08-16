@@ -1,0 +1,4 @@
+[03-Oct-2017 11:02:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/mariad85/public_html/wp-content/themes/shop-isle-child/functions.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mariad85/public_html/wp-content/themes/shop-isle-child/functions.php on line 2
