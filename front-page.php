@@ -50,6 +50,5 @@ require_once( $video );
 $products_slider = get_template_directory() . '/inc/sections/shop_isle_products_slider_section.php';
 require_once( $products_slider );
 
-
 get_footer();
 
