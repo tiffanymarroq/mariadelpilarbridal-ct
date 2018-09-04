@@ -44,6 +44,9 @@ body.home .navbar-transparent {
 	color: #000;
 	margin: 0 0 8px;
 }
+.navbar-custom{
+	padding: 0;
+}
 .header-menu-wrap  .menu-left {
 	float: left !important;	
 }
