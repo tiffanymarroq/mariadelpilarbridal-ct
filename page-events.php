@@ -60,7 +60,8 @@ get_header(); ?>
     <?php $args = array(
                 'post_type' => 'post',
                 'category_name'    => 'events',
-				'order' => 'asc',
+                'order' => 'asc',
+                'orderby' => 'date',
 				'posts_per_page' => '-1',
 			);
 			$work = new WP_Query( $args );
