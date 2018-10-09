@@ -64,8 +64,8 @@ function remove_pgz_theme_support() {
 	remove_theme_support( 'wc-product-gallery-zoom' );
 	//remove_theme_support( 'wc-product-gallery-lightbox' );
 }
-
 add_theme_support( 'woocommerce', array(
   'thumbnail_image_width' => 400,
+  'gallery_thumbnail_image_width' => 100,
   'single_image_width' => 400,
   ) );
