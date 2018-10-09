@@ -66,6 +66,6 @@ function remove_pgz_theme_support() {
 }
 
 add_theme_support( 'woocommerce', array(
-  'thumbnail_image_width' => 200,
-  'single_image_width' => 350,
+  'thumbnail_image_width' => 400,
+  'single_image_width' => 400,
   ) );
