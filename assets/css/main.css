@@ -118,9 +118,9 @@ body.admin-bar .navbar{
 }
 .navbar .container{
 	width: 100%;
-	border-bottom-style: ridge;
+	/* border-bottom-style: ridge;
 	border-color: #020E21;
-	border-width: 1.10px;
+	border-width: 1.10px; */
 	height: 130px;
 }
 .navbar-custom .navbar-toggle .icon-bar{
@@ -357,6 +357,14 @@ ul.products li.product{
 }
 .woocommerce-breadcrumb a{
 	padding: 15px;
+}
+.woocommerce ul.products li.product{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+mark, .mark{
+	display: none;
 }
 /******** SINGLE PRODUCT PAGE ********/
 img.zoomimg{
