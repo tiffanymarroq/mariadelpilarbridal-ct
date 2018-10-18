@@ -11,7 +11,7 @@ get_header();
 echo '<div class="main">';
 $big_title = get_template_directory() . '/inc/sections/shop_isle_big_title_section.php';
 load_template( apply_filters( 'shop-isle-subheader', $big_title ) );
-<h1>hi</h1>
+
 /* Wrapper start */
 $shop_isle_bg = get_theme_mod( 'background_color' );
 
