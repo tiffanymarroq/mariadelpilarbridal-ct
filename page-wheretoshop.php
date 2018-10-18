@@ -59,7 +59,7 @@ get_header(); ?>
         
     <?php $args = array(
                 'post_type' => 'post',
-                'category_name'    => 'events',
+                'category_name'    => 'location',
                 'order' => 'des',
                 'orderby' => 'date',
 				'posts_per_page' => '-1',
