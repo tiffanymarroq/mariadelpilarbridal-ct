@@ -72,8 +72,8 @@ get_header(); ?>
             <?php $postImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' ); ?>
             <article id="post-<?php the_ID(); ?>" class="grid-item">
 
-                <img class="post-image" src="<?php echo $postImg['0'];?>" alt="<?php the_title(); ?>">
-                <?php if ( get_post_thumbnail_id() ) { ?>
+                <!-- <img class="post-image" src="<?php echo $postImg['0'];?>" alt="<?php the_title(); ?>">
+                <?php if ( get_post_thumbnail_id() ) { ?> -->
 
                 <div class="portfolio-thumbnail">
                     <a href="<?php echo $url; ?>" target="_blank"></a>
