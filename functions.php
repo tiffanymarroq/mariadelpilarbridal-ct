@@ -69,3 +69,9 @@ add_theme_support( 'woocommerce', array(
   'gallery_thumbnail_image_width' => 100,
   'single_image_width' => 400,
   ) );
+
+add_filter('single_add_to_cart_text', 'woo_custom_cart_button_text');
+  
+function woo_custom_cart_button_text() {
+    return __('View Dress', 'woocommerce');
+}
