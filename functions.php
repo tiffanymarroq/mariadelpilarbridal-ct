@@ -21,6 +21,9 @@ function submenu_attribute_dropdown( $atts, $item, $args )
   // The ID of the target menu item
   $menu_target = 130;
   $menu_target2 = 334;
+  $menu_target3 = 1238;
+  $menu_target4 = 1261;
+  
 
   // inspect $item
   if ($item->ID == $menu_target) {
@@ -28,6 +31,14 @@ function submenu_attribute_dropdown( $atts, $item, $args )
   }
 
   if ($item->ID == $menu_target2) {
+    $atts['data-toggle'] = 'dropdown';
+  }
+
+  if ($item->ID == $menu_target3) {
+    $atts['data-toggle'] = 'dropdown';
+  }
+
+  if ($item->ID == $menu_target4) {
     $atts['data-toggle'] = 'dropdown';
   }
   return $atts;
