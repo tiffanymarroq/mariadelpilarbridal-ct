@@ -862,7 +862,7 @@ function shop_isle_add_id() {
 
 						'subtext'   => __( 'WooCommerce Theme', 'shop-isle' ),
 
-						'label'     => __( 'Read more', 'shop-isle' ),
+						'label'     => __( 'View Dress', 'shop-isle' ),
 
 					),
 
