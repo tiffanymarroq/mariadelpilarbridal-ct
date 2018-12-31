@@ -619,6 +619,15 @@ img.zoomimg{
         width: 50%;
     } 
 }
+/* Video Playlist */
+.wp-playlist{
+	margin: 0;
+	padding: 0;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 @media screen and (max-width: 576px){
     /******** MAIN NAV ********/
@@ -636,5 +645,8 @@ img.zoomimg{
     .grid-item{
         width: 100% !important;
         margin: 20px auto;
-    }	 
+	}
+	.wp-playlist{
+		width: 100%;
+	}	 
 }
