@@ -621,11 +621,10 @@ img.zoomimg{
 }
 /* Video Playlist */
 .wp-playlist{
-	margin: 0;
-	padding: 0;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+
+	width: 50%;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 
